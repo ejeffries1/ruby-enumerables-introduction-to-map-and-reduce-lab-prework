@@ -38,10 +38,10 @@ def reduce_to_any_true(source_array)
   i = 0
   
   while i < source_array.length do 
-    if source_array[i] == false || source_array[i] == nil
-      return false
+    if source_array.any?(true)
+      return true
     i += 1
   end
-  return true
+  return false
   end
 end
