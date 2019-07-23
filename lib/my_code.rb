@@ -43,6 +43,7 @@ def reduce_to_any_true(source_array)
     i += 1
   else source_array[i] == true
     return true
+    i += 1
   end
   end
 end
