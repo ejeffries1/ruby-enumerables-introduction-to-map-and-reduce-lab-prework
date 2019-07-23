@@ -44,4 +44,5 @@ def reduce_to_any_true(source_array)
   else source_array[i] == true
     return true
   end
+  end
 end
